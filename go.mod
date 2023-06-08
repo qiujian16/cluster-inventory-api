@@ -2,7 +2,10 @@ module github.com/qiujian16/cluster-inventory-api
 
 go 1.19
 
-require k8s.io/apimachinery v0.27.2
+require (
+	k8s.io/api v0.27.2
+	k8s.io/apimachinery v0.27.2
+)
 
 require (
 	github.com/go-logr/logr v1.2.3 // indirect
